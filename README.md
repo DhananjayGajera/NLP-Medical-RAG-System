@@ -16,9 +16,9 @@ The **Medical RAG System** is a hybrid **Retrieval-Augmented Generation (RAG)** 
 
 ## 📊 Datasets
 The following publicly available datasets were used for training and evaluation:
-- **MedQA-USMLE**: Multiple-choice questions for medical reasoning and knowledge.
-- **Medical Meadow (Wikidoc)**: Contextual biomedical data for retrieval tasks.
-- **PubMedQA**: Clinical questions and answers sourced from PubMed articles.
+1. [**MedQA-USMLE Dataset**](https://huggingface.co/datasets/GBaker/MedQA-USMLE-4-options) : Multiple-choice questions for medical reasoning and knowledge.
+2. [**Medical Meadow Dataset**](https://huggingface.co/datasets/medalpaca/medical_meadow_wikidoc) : Contextual biomedical data for retrieval tasks.
+3. [**PubMedQA Dataset**](https://pubmed.ncbi.nlm.nih.gov/) : Clinical questions and answers sourced from PubMed articles.
 
 ---
 
@@ -43,3 +43,4 @@ The system was developed and evaluated using four retrieval approaches:
 - **Precision**
 - **Recall**
 - **Cosine Similarity Scores**
+
